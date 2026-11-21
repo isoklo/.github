@@ -8,7 +8,7 @@ opinion: the same change always gets the same verdict.
 
 | Repository | What it is |
 |---|---|
-| **[isoklo](https://github.com/isoklo/isoklo)** · `v0.1.1` | The zero-dependency CLI and GitHub Action. [npm](https://www.npmjs.com/package/isoklo) · [GitHub Marketplace](https://github.com/marketplace/actions/isoklo) |
+| **[isoklo](https://github.com/isoklo/isoklo)** · `v0.1.2` | The zero-dependency CLI and GitHub Action. [npm](https://www.npmjs.com/package/isoklo) · [GitHub Marketplace](https://github.com/marketplace/actions/isoklo) |
 | **[isoklo-demo](https://github.com/isoklo/isoklo-demo)** | Four live agent pull requests. Unit tests pass on all four; Isoklo blocks three. |
 | **[isoklo-web](https://github.com/isoklo/isoklo-web)** | The interactive showcase at [isoklo.vercel.app](https://isoklo.vercel.app). |
 

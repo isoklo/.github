@@ -8,16 +8,17 @@ asked for an opinion: the same change always gets the same verdict.
 
 | Repository | What it is |
 |---|---|
-| **[isoklo](https://github.com/isoklo/isoklo)** · `v0.2.0` | The CLI, the GitHub Action and the GitHub App: 62 rules, no runtime dependencies. [npm](https://www.npmjs.com/package/isoklo) · [GitHub Marketplace](https://github.com/marketplace/actions/isoklo) |
+| **[isoklo](https://github.com/isoklo/isoklo)** · `v0.3.0` | The CLI, the GitHub Action and the [GitHub App](https://github.com/apps/isoklo): 62 rules, no runtime dependencies, Ed25519-signed receipts. [npm](https://www.npmjs.com/package/isoklo) · [GitHub Marketplace](https://github.com/marketplace/actions/isoklo) |
 | **[isoklo-demo](https://github.com/isoklo/isoklo-demo)** | Four live agent pull requests. Unit tests pass on all four; Isoklo blocks three. |
-| **[isoklo-web](https://github.com/isoklo/isoklo-web)** | The interactive showcase at [isoklo.vercel.app](https://isoklo.vercel.app). |
+| **[isoklo-web](https://github.com/isoklo/isoklo-web)** | The first showcase site. Isoklo's home is now [euklo.com/isoklo](https://euklo.com/isoklo/). |
+
+**[Install the GitHub App](https://github.com/apps/isoklo)**: no YAML, a verdict on every pull request in about 2 seconds. Or:
 
 ```console
-npx isoklo           # scan this repository, no setup
-npx isoklo init      # add it to every pull request: hook, CI and a baseline
-npx isoklo check     # check this branch before it merges
+npx isoklo@latest check     # judge this branch, as the merge gate does
+npx isoklo@latest init      # add it to every pull request: hook, CI and a baseline
 ```
 
-Try it in your browser first: [euklo.com/check](https://euklo.com/check/). Every rule: [euklo.com/isoklo](https://euklo.com/isoklo/).
+Try it in your browser first: [euklo.com/check](https://euklo.com/check/). Every rule, real runs and pricing: [euklo.com/isoklo](https://euklo.com/isoklo/).
 
 Built by [Euklo](https://euklo.com), a developer-focused AI agent and LLM tooling studio.
